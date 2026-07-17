@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AscendSEO — SEO 一站式增长服务，内容、外链、排名</title>
+    <meta name="description" content="AscendSEO 为 AI、SaaS、DTC、电商和出海品牌提供标准化 SEO 增长服务，覆盖内容、外链、PR、Reddit、目录提交和透明报告。" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#top" aria-label="AscendSEO 首页">
+          <img src="./assets/logo.svg" alt="AscendSEO" />
+        </a>
+        <nav class="nav-links" aria-label="主导航">
+          <a href="#service-levels">服务方式</a>
+          <a href="#pricing">标准套餐</a>
+          <a href="#rank-guarantee">保证排名</a>
+          <a href="#bulk">单点服务</a>
+          <a href="#how-seo-works">SEO 原理</a>
+          <a href="#faq">常见问题</a>
+          <a href="#contact-form">联系我们</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="lang-link" href="./index.html">EN</a>
+          <a class="button" href="#pricing">查看套餐</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- HERO — 紧凑排版，H1 控制在 2 行 -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <div class="eyebrow">适合 AI、SaaS、DTC、电商、出海品牌</div>
+            <h1 class="hero-title zh-title">SEO 一站式增长服务<br>内容到排名全交付</h1>
+            <p class="hero-copy">AscendSEO 提供<span class="hero-highlight">内容</span>、<span class="hero-highlight">外链</span>、<span class="hero-highlight">PR</span>、<span class="hero-highlight">Reddit 曝光</span>和<span class="hero-highlight">目录提交</span>。你可以买<strong>单项服务</strong>，也可以选<strong>标准套餐</strong>，或使用<strong>排名保证服务</strong>。</p>
+            <div class="hero-actions">
+              <a class="button" href="#pricing">查看套餐</a>
+              <a class="button secondary" href="#rank-guarantee">排名保证服务</a>
+            </div>
+            <div class="trust-bar">
+              <div class="trust-item">单项服务</div>
+              <div class="trust-item">标准套餐</div>
+              <div class="trust-item">排名保证服务</div>
+              <div class="trust-item">定制方案</div>
+            </div>
+          </div>
+          <div class="hero-cta-card">
+            <div class="hero-cta-bg" style="background-image:url('./assets/hero-seo-growth.png')"></div>
+            <div class="hero-cta-overlay"></div>
+            <div class="hero-cta-content">
+              <div class="hero-cta-icon">&#128269;</div>
+              <h3>获取免费<br>SEO 网站分析报告</h3>
+              <form class="hero-cta-form" onsubmit="event.preventDefault(); var fn=document.getElementById('cta-fname').value,ln=document.getElementById('cta-lname').value,site=document.getElementById('cta-site').value,em=document.getElementById('cta-email').value; if(!fn||!ln||!site||!em){alert('请填写所有字段');return;} var subj='免费 SEO 网站分析请求 - '+site; var body='姓名: '+fn+' '+ln+'%0D%0A'+'网站: '+site+'%0D%0A'+'邮箱: '+em; window.open('mailto:hello@ascendseo.com?subject='+encodeURIComponent(subj)+'&body='+body,'_blank');">
+                <input type="text" id="cta-fname" placeholder="姓氏" required />
+                <input type="text" id="cta-lname" placeholder="名字" required />
+                <input type="url" id="cta-site" placeholder="网站 URL" required />
+                <input type="email" id="cta-email" placeholder="邮箱" required />
+                <button type="submit" class="button hero-cta-btn">获取免费检测</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 服务方式 — 新板块，让用户一眼知道 4 种购买模式 -->
+      <section class="section soft" id="service-levels">
+        <div class="container">
+          <div class="section-header center">
+            <h2>四种服务方式，按需选择</h2>
+            <p>无论你是需要<strong>单项服务</strong>、<strong>完整套餐</strong>、<strong>排名保证</strong>，还是<strong>全部定制叠加</strong>——我们都能提供对应方案。</p>
+          </div>
+          <div class="level-grid">
+            <a class="level-card" href="#pricing">
+              <div class="level-num">01</div>
+              <h3>标准套餐</h3>
+              <p>整合型 SEO 项目制交付。内容 + 外链 + 目录提交 + PR + Reddit，固定周期、固定交付清单，开箱即用。</p>
+              <span class="level-link">查看套餐 &rarr;</span>
+            </a>
+            <a class="level-card" href="#rank-guarantee">
+              <div class="level-num">02</div>
+              <h3>排名保证服务</h3>
+              <p>指定关键词和目标排名位置，自动报价。我们<strong>承诺</strong>在规定周期内达到你指定的 Google 排名。</p>
+              <span class="level-link">获取报价 &rarr;</span>
+            </a>
+            <a class="level-card" href="#bulk">
+              <div class="level-num">03</div>
+              <h3>单点服务</h3>
+              <p>按需购买：批量博客文章、批量外链、目录提交。不用买整包，只买你需要的，随时叠加。</p>
+              <span class="level-link">浏览服务 &rarr;</span>
+            </a>
+            <a class="level-card" href="#contact-form">
+              <div class="level-num">04</div>
+              <h3>定制方案</h3>
+              <p>所有服务叠加，多域名、多语言、长期托管、更复杂的 SEO 项目，按你的需求定制。</p>
+              <span class="level-link">联系我们 &rarr;</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 标准套餐 -->
+      <section class="section" id="pricing">
+        <div class="container">
+          <div class="section-header center">
+            <h2>标准 SEO 套餐</h2>
+            <p>固定周期、固定交付清单的整合型 SEO 项目。将<strong>内容、外链、目录提交和技术检查</strong>整合为统一流程执行。</p>
+          </div>
+
+          <div class="ranking-note">
+            <div class="ranking-note-icon">&#9733;</div>
+            <div class="ranking-note-text">
+              <strong>这些套餐如何驱动排名：</strong>每个套餐围绕三大支柱设计——<strong>关键词内容</strong>吸引搜索流量，<strong>外链和目录提交</strong>建立域名权威，<strong>技术审计</strong>确保 Google 正常读取网站。三者协同（<strong>内容 + 权威 + 技术基础</strong>），正是 Google 算法给予更高排名的原因。
+            </div>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="price-card">
+              <h3>SEO Starter</h3>
+              <div class="price">$399 <span>USD</span></div>
+              <div class="timeline">15 天</div>
+              <p class="best-for">适合刚上线的网站，需要完成基础 SEO 检查、第一批内容页面和早期外链信号。</p>
+              <ul class="includes">
+                <li>1 个域名</li>
+                <li>3 个目标关键词</li>
+                <li>1 份基础技术 SEO 检查报告</li>
+                <li>Title、Meta、JSON-LD 建议</li>
+                <li>5 篇 SEO Blog 文章</li>
+                <li>10 个工具目录提交</li>
+                <li>15 条基础外链</li>
+                <li>5 条 DR70+ 高质量外链</li>
+                <li>1 份最终交付报告</li>
+              </ul>
+              <a class="button" href="mailto:hello@ascendseo.com?subject=SEO%20Starter">购买 SEO Starter</a>
+            </article>
+
+            <article class="price-card featured">
+              <span class="badge">推荐套餐</span>
+              <h3>Content + Backlink Growth</h3>
+              <div class="price">$1,499 <span>USD</span></div>
+              <div class="timeline">30 天</div>
+              <p class="best-for">适合需要 SEO 内容、竞品对比页面、目录提交和更强外链基础的团队。</p>
+              <ul class="includes">
+                <li>1 个域名</li>
+                <li>5 个目标关键词</li>
+                <li>1 份基础技术 SEO 检查报告</li>
+                <li>关键词与内容机会规划</li>
+                <li>8 个 SEO Blog 页面</li>
+                <li>2 个竞品对比页面</li>
+                <li>40 个目录提交</li>
+                <li>50 条基础外链</li>
+                <li>2 次进度报告</li>
+                <li>1 份最终交付报告</li>
+              </ul>
+              <a class="button" href="mailto:hello@ascendseo.com?subject=Content%20%2B%20Backlink%20Growth">选择 Growth 套餐</a>
+            </article>
+
+            <article class="price-card">
+              <h3>Authority Builder</h3>
+              <div class="price">$3,499 <span>USD</span></div>
+              <div class="timeline">60 天</div>
+              <p class="best-for">适合需要通过 PR、Reddit、高质量外链、SEO 内容和竞品监控增强外部信任信号的品牌。</p>
+              <ul class="includes">
+                <li>1 个域名</li>
+                <li>8 个目标关键词</li>
+                <li>1 份基础技术 SEO 检查报告</li>
+                <li>1 次首次线上咨询会议</li>
+                <li>每 2 周 1 次线上复盘会议</li>
+                <li>4 个竞争 SEO 监控</li>
+                <li>6 个 SEO Blog 页面</li>
+                <li>1 篇英文 PR + 分发</li>
+                <li>60 条基础外链</li>
+                <li>8 条高质量外链</li>
+                <li>3 个 Reddit 话题或评论</li>
+                <li>3 次进度报告</li>
+                <li>1 份最终交付报告</li>
+              </ul>
+              <a class="button" href="mailto:hello@ascendseo.com?subject=Authority%20Builder">建设品牌权威</a>
+            </article>
+
+            <article class="price-card">
+              <h3>Full SEO Growth</h3>
+              <div class="price">$5,999 <span>USD</span></div>
+              <div class="timeline">90 天</div>
+              <p class="best-for">适合需要全面 SEO 冲刺的公司，包含专属咨询、每周复盘、竞品监控，覆盖技术、内容、外链、PR、Reddit 和目录。</p>
+              <ul class="includes">
+                <li>1 个域名</li>
+                <li>12 个目标关键词</li>
+                <li>1 份基础技术 SEO 检查报告</li>
+                <li>1 份网站结构优化方案</li>
+                <li>1 次首次线上咨询会议</li>
+                <li>每周 1 次线上复盘会议</li>
+                <li>8 个竞争 SEO 监控</li>
+                <li>12 个 SEO Blog 页面</li>
+                <li>4 个核心页面内容方案</li>
+                <li>100 个目录提交</li>
+                <li>100 条基础外链</li>
+                <li>12 条高质量外链</li>
+                <li>1 篇英文 PR + 分发</li>
+                <li>6 个 Reddit 话题或评论</li>
+                <li>4 次进度报告</li>
+                <li>1 份 GSC 分析和增长复盘</li>
+              </ul>
+              <a class="button" href="mailto:hello@ascendseo.com?subject=Full%20SEO%20Growth">开始 Full SEO Growth</a>
+            </article>
+          </div>
+
+          <div class="custom-card">
+            <div>
+              <h3>定制方案</h3>
+              <p class="best-for">适合需要排名目标、多域名、多语言 SEO、企业级报告或长期月度托管的复杂项目。</p>
+            </div>
+            <ul class="custom-list">
+              <li>多个域名</li>
+              <li>多语言 SEO</li>
+              <li>高竞争关键词</li>
+              <li>Top 10 或 Top 3 排名目标</li>
+              <li>定制 PR</li>
+              <li>更大规模 Reddit 曝光</li>
+              <li>长期月度托管</li>
+            </ul>
+            <a class="button accent" href="#contact-form">咨询定制方案</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 排名保证服务 -->
+      <section class="section soft" id="rank-guarantee">
+        <div class="container">
+          <div class="section-header center">
+            <h2>排名保证服务</h2>
+            <p class="lead-highlight">告诉我们你想排名的<strong class="hl-keyword">具体搜索词</strong>，我们根据该关键词在 Google 中的<strong class="hl-cost">竞争激烈程度</strong>来定价。选择你的<strong class="hl-target">目标排名位置</strong>（Top 1-3、Top 4-10 或 Top 20），输入你的<strong class="hl-site">网站网址</strong>，即可获取<strong class="hl-quote">即时报价</strong>。收到报价后可直接下单——我们保证你的网站在约定周期内达到指定排名位置。</p>
+          </div>
+          <div class="calculator-wrapper">
+            <div class="calculator-card">
+              <div class="calc-header">
+                <h3>排名保证报价计算器</h3>
+                <p>填写以下信息，即可获得自动报价估算。</p>
+              </div>
+              <div class="calc-body">
+                <div class="calc-field">
+                  <label for="kw-input">1. 目标搜索词 / 关键词</label>
+                  <div class="kw-search-wrap">
+                    <input type="text" id="kw-input" class="kw-input" placeholder="例如：best AI writing tool, project management software for startups" />
+                    <button type="button" id="kw-check-btn" class="button kw-check-btn">检测难度</button>
+                  </div>
+                  <div id="kw-result" class="kw-result"></div>
+                </div>
+                <div class="calc-field">
+                  <label>2. 目标排名位置</label>
+                  <div class="rank-options" id="rank-options">
+                    <label class="rank-option">
+                      <input type="radio" name="rank" value="top3" />
+                      <span class="rank-option-content">
+                        <strong>Top 1&ndash;3</strong>
+                        <small>首页顶端 — 最高曝光和流量</small>
+                      </span>
+                    </label>
+                    <label class="rank-option">
+                      <input type="radio" name="rank" value="top10" />
+                      <span class="rank-option-content">
+                        <strong>Top 4&ndash;10</strong>
+                        <small>首页展示 — 稳定有机流量</small>
+                      </span>
+                    </label>
+                    <label class="rank-option">
+                      <input type="radio" name="rank" value="top20" />
+                      <span class="rank-option-content">
+                        <strong>Top 20</strong>
+                        <small>第 1&ndash;2 页 — 稳步提升排名</small>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+                <div class="calc-field">
+                  <label for="url-input">3. 你的网站网址</label>
+                  <input type="url" id="url-input" class="kw-input" placeholder="https://yourwebsite.com" />
+                  <small class="field-hint">我们评估网站的当前 SEO 基础，纳入报价计算。</small>
+                </div>
+                <div id="quote-output" class="quote-output" style="display:none;">
+                  <div class="quote-breakdown">
+                    <div class="quote-row"><span>关键词竞争难度</span><span id="quote-diff" class="quote-val">&mdash;</span></div>
+                    <div class="quote-row"><span>目标排名</span><span id="quote-rank" class="quote-val">&mdash;</span></div>
+                    <div class="quote-row"><span>网站基础</span><span id="quote-site" class="quote-val">&mdash;</span></div>
+                    <div class="quote-row quote-total"><span>预估月度投入</span><span id="quote-price" class="quote-val">&mdash;</span></div>
+                  </div>
+                  <p class="quote-note">此为自动估算。最终价格将在网站快速审核后确认。排名承诺在约定周期内生效，以交付承诺为保障。</p>
+                  <a class="button" id="quote-cta" href="mailto:hello@ascendseo.com?subject=Rank%20Guarantee%20Quote">确认此报价</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 单点服务 — 批量博客 + 批量外链 + 目录 -->
+      <section class="section" id="bulk">
+        <div class="container">
+          <div class="section-header center">
+            <h2>单点服务</h2>
+            <p>按需购买单项服务，无需购买完整套餐。随时增加或减少，也可以叠加到任何标准套餐中。</p>
+          </div>
+
+          <div class="bulk-section-header">
+            <h3>SEO 博客文章</h3>
+            <p>品牌定制的 SEO 文章，附带你的 Logo 和可跳转的品牌官网链接。每篇都经过关键词研究和 SEO 优化，直接可发布。</p>
+          </div>
+          <div class="bulk-blog-grid">
+            <article class="bulk-card">
+              <div class="bulk-qty">10</div>
+              <h3>篇文章</h3>
+              <div class="bulk-price">$59 <span>USD</span></div>
+              <ul class="bulk-features">
+                <li>品牌官网可跳转的独立页面</li>
+                <li>10 篇关键词研究文章</li>
+                <li>SEO 优化，含 Meta 标签</li>
+                <li>品牌 Logo 和样式定制</li>
+                <li>内链建议</li>
+                <li>可直接发布格式</li>
+              </ul>
+              <div class="bulk-per">$5.90 / 篇</div>
+              <a class="button secondary" href="mailto:hello@ascendseo.com?subject=Bulk%20Blog%20-%2010%20Articles">订购 10 篇</a>
+            </article>
+            <article class="bulk-card featured-bulk">
+              <span class="badge">最划算</span>
+              <div class="bulk-qty">20</div>
+              <h3>篇文章</h3>
+              <div class="bulk-price">$109 <span>USD</span></div>
+              <ul class="bulk-features">
+                <li>品牌官网可跳转的独立页面</li>
+                <li>20 篇关键词研究文章</li>
+                <li>SEO 优化，含 Meta 标签</li>
+                <li>品牌 Logo 和样式定制</li>
+                <li>内链建议</li>
+                <li>内容日历结构</li>
+                <li>可直接发布格式</li>
+              </ul>
+              <div class="bulk-per">$5.45 / 篇</div>
+              <a class="button" href="mailto:hello@ascendseo.com?subject=Bulk%20Blog%20-%2020%20Articles">订购 20 篇</a>
+            </article>
+            <article class="bulk-card">
+              <div class="bulk-qty">50</div>
+              <h3>篇文章</h3>
+              <div class="bulk-price">$259 <span>USD</span></div>
+              <ul class="bulk-features">
+                <li>品牌官网可跳转的独立页面</li>
+                <li>50 篇关键词研究文章</li>
+                <li>SEO 优化，含 Meta 标签</li>
+                <li>品牌 Logo 和样式定制</li>
+                <li>内链策略</li>
+                <li>完整内容日历结构</li>
+                <li>话题集群组织</li>
+                <li>可直接发布格式</li>
+              </ul>
+              <div class="bulk-per">$5.18 / 篇</div>
+              <a class="button secondary" href="mailto:hello@ascendseo.com?subject=Bulk%20Blog%20-%2050%20Articles">订购 50 篇</a>
+            </article>
+          </div>
+
+          <div class="bulk-divider"></div>
+
+          <div class="bulk-section-header">
+            <h3>批量外链</h3>
+            <p>每一条外链都是信任投票。我们提供真实、可验证的外链，覆盖多个 DR 层级，帮你建立自然、多样的外链结构，获得 Google 认可。</p>
+          </div>
+          <div class="bulk-link-grid">
+            <article class="bulk-link-card">
+              <h3>Starter 包</h3>
+              <div class="bulk-price">$79 <span>USD</span></div>
+              <div class="link-dr-breakdown">
+                <div class="dr-bar"><span class="dr-label">DR 20&ndash;30</span><span class="dr-count">6 条</span></div>
+                <div class="dr-bar"><span class="dr-label">DR 31&ndash;50</span><span class="dr-count">3 条</span></div>
+                <div class="dr-bar"><span class="dr-label">DR 51&ndash;70</span><span class="dr-count">1 条</span></div>
+              </div>
+              <div class="link-total">10 条外链</div>
+              <ul class="bulk-features">
+                <li>真实网站手动放置</li>
+                <li>可验证的在线链接</li>
+                <li>自然锚文本分布</li>
+                <li>14 天交付</li>
+              </ul>
+              <a class="button secondary" href="mailto:hello@ascendseo.com?subject=Bulk%20Backlinks%20-%20Starter">购买 Starter 包</a>
+            </article>
+            <article class="bulk-link-card featured-bulk">
+              <span class="badge">热门</span>
+              <h3>Growth 包</h3>
+              <div class="bulk-price">$179 <span>USD</span></div>
+              <div class="link-dr-breakdown">
+                <div class="dr-bar"><span class="dr-label">DR 20&ndash;30</span><span class="dr-count">12 条</span></div>
+                <div class="dr-bar"><span class="dr-label">DR 31&ndash;50</span><span class="dr-count">8 条</span></div>
+                <div class="dr-bar"><span class="dr-label">DR 51&ndash;70</span><span class="dr-count">4 条</span></div>
+                <div class="dr-bar"><span class="dr-label">DR 71+</span><span class="dr-count">1 条</span></div>
+              </div>
+              <div class="link-total">25 条外链</div>
+              <ul class="bulk-features">
+                <li>真实网站手动放置</li>
+                <li>可验证的在线链接</li>
+                <li>自然锚文本分布</li>
+                <li>含 1 条 DR71+ 高权威链接</li>
+                <li>21 天交付</li>
+              </ul>
+              <a class="button" href="mailto:hello@ascendseo.com?subject=Bulk%20Backlinks%20-%20Growth">购买 Growth 包</a>
+            </article>
+            <article class="bulk-link-card">
+              <h3>Authority 包</h3>
+              <div class="bulk-price">$329 <span>USD</span></div>
+              <div class="link-dr-breakdown">
+                <div class="dr-bar"><span class="dr-label">DR 20&ndash;30</span><span class="dr-count">18 条</span></div>
+                <div class="dr-bar"><span class="dr-label">DR 31&ndash;50</span><span class="dr-count">18 条</span></div>
+                <div class="dr-bar"><span class="dr-label">DR 51&ndash;70</span><span class="dr-count">10 条</span></div>
+                <div class="dr-bar"><span class="dr-label">DR 71+</span><span class="dr-count">4 条</span></div>
+              </div>
+              <div class="link-total">50 条外链</div>
+              <ul class="bulk-features">
+                <li>真实网站手动放置</li>
+                <li>可验证的在线链接</li>
+                <li>自然锚文本分布</li>
+                <li>4 条 DR71+ 高权威链接</li>
+                <li>优先索引支持</li>
+                <li>30 天交付</li>
+              </ul>
+              <a class="button secondary" href="mailto:hello@ascendseo.com?subject=Bulk%20Backlinks%20-%20Authority">购买 Authority 包</a>
+            </article>
+            <article class="bulk-link-card">
+              <h3>Dominance 包</h3>
+              <div class="bulk-price">$599 <span>USD</span></div>
+              <div class="link-dr-breakdown">
+                <div class="dr-bar"><span class="dr-label">DR 20&ndash;30</span><span class="dr-count">35 条</span></div>
+                <div class="dr-bar"><span class="dr-label">DR 31&ndash;50</span><span class="dr-count">35 条</span></div>
+                <div class="dr-bar"><span class="dr-label">DR 51&ndash;70</span><span class="dr-count">20 条</span></div>
+                <div class="dr-bar"><span class="dr-label">DR 71+</span><span class="dr-count">10 条</span></div>
+              </div>
+              <div class="link-total">100 条外链</div>
+              <ul class="bulk-features">
+                <li>真实网站手动放置</li>
+                <li>可验证的在线链接</li>
+                <li>自然锚文本分布</li>
+                <li>10 条 DR71+ 高权威链接</li>
+                <li>优先索引支持</li>
+                <li>外链多样性报告</li>
+                <li>45 天交付</li>
+              </ul>
+              <a class="button secondary" href="mailto:hello@ascendseo.com?subject=Bulk%20Backlinks%20-%20Dominance">购买 Dominance 包</a>
+            </article>
+          </div>
+
+          <div class="bulk-divider"></div>
+
+          <div class="bulk-section-header">
+            <h3>目录提交</h3>
+            <p>将你的产品提交到 AI、SaaS、Startup 和工具发现目录。每个提交既是外链，也是新用户发现你的渠道。</p>
+          </div>
+          <div class="bulk-dir-grid">
+            <article class="bulk-dir-card">
+              <h3>Starter</h3>
+              <div class="bulk-price">$49 <span>USD</span></div>
+              <ul class="bulk-features">
+                <li>10 个目录提交</li>
+                <li>AI、SaaS 和工具目录</li>
+                <li>可验证的在线列表</li>
+                <li>7 天交付</li>
+              </ul>
+              <a class="button secondary" href="mailto:hello@ascendseo.com?subject=Directory%20Submissions%20-%20Starter">订购 10 个</a>
+            </article>
+            <article class="bulk-dir-card">
+              <h3>Growth</h3>
+              <div class="bulk-price">$149 <span>USD</span></div>
+              <ul class="bulk-features">
+                <li>40 个目录提交</li>
+                <li>AI、SaaS 和工具目录</li>
+                <li>可验证的在线列表</li>
+                <li>14 天交付</li>
+              </ul>
+              <a class="button secondary" href="mailto:hello@ascendseo.com?subject=Directory%20Submissions%20-%20Growth">订购 40 个</a>
+            </article>
+            <article class="bulk-dir-card">
+              <h3>Enterprise</h3>
+              <div class="bulk-price">$299 <span>USD</span></div>
+              <ul class="bulk-features">
+                <li>100 个目录提交</li>
+                <li>所有主要 AI、SaaS 和工具目录</li>
+                <li>可验证的在线列表</li>
+                <li>21 天交付</li>
+              </ul>
+              <a class="button secondary" href="mailto:hello@ascendseo.com?subject=Directory%20Submissions%20-%20Enterprise">订购 100 个</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEO 工作原理 -->
+      <section class="section soft" id="how-seo-works">
+        <div class="container">
+          <div class="section-header center">
+            <h2>SEO 是如何运作的</h2>
+            <p>SEO 是一个复合工程。了解驱动 Google 排名的因素，以及每种交付物如何贡献最终结果。</p>
+          </div>
+          <div class="seo-flow">
+            <div class="seo-flow-row">
+              <div class="seo-node keyword-node"><div class="seo-node-icon">&#128273;</div><h4>搜索词<br><span>(Keywords)</span></h4><p>用户在 Google 中输入的词语和短语。每个搜索词代表一种搜索意图。选对关键词是所有 SEO 工作的起点。</p></div>
+              <div class="seo-arrow">&rarr;</div>
+              <div class="seo-node onpage-node"><div class="seo-node-icon">&#128196;</div><h4>页面内容<br><span>Blog &amp; 落地页</span></h4><p>SEO Blog 页面是为匹配搜索意图而构建的。关键词优化的内容告诉 Google 你的页面主题是什么。</p></div>
+              <div class="seo-arrow">&rarr;</div>
+              <div class="seo-node tech-node"><div class="seo-node-icon">&#128295;</div><h4>技术基础<br><span>审计与结构</span></h4><p>技术审计检查索引能力、元数据、Schema 和页面速度。如果 Google 无法读取你的网站，再好的内容也不会排名。</p></div>
+            </div>
+            <div class="seo-flow-divider"><span>+</span></div>
+            <div class="seo-flow-row">
+              <div class="seo-node authority-node"><div class="seo-node-icon">&#128279;</div><h4>权威信号<br><span>外链 &amp; 目录</span></h4><p>外链是其他网站对你网站的信任投票。工具目录将你的产品列在用户可以发现的平台上。两者共同建立域名权威。</p></div>
+              <div class="seo-arrow">&rarr;</div>
+              <div class="seo-node visibility-node"><div class="seo-node-icon">&#128227;</div><h4>外部可见度<br><span>PR &amp; Reddit</span></h4><p>PR 在新闻和媒体网站上创造品牌提及。Reddit 在真实用户讨论中建立话题相关性，两者都向 Google 传递品牌活跃信号。</p></div>
+              <div class="seo-arrow">&rarr;</div>
+              <div class="seo-node result-node"><div class="seo-node-icon">&#127942;</div><h4>Google 排名<br><span>最终结果</span></h4><p>当页面内容、技术健康度和权威信号协同工作时，Google 会将你的网站识别为可信、相关的结果，并给予更高排名。</p></div>
+            </div>
+          </div>
+          <div class="seo-factors">
+            <h3 class="seo-factors-title">每个因素解决什么问题</h3>
+            <div class="factors-grid">
+              <article class="factor-card"><div class="factor-num">01</div><h4>技术 SEO 审计</h4><div class="factor-problem"><strong>问题：</strong>Google 无法找到、读取或理解你的页面。</div><div class="factor-solution"><strong>解决：</strong>索引能力、抓取错误、缺失的 Meta 标签、破损的 Schema 和页面速度慢等问题。</div></article>
+              <article class="factor-card"><div class="factor-num">02</div><h4>SEO Blog 页面</h4><div class="factor-problem"><strong>问题：</strong>网站没有针对用户搜索词的内容。</div><div class="factor-solution"><strong>解决：</strong>创建关键词目标页面，匹配信息型、比较型和教育型搜索意图。</div></article>
+              <article class="factor-card"><div class="factor-num">03</div><h4>工具目录提交</h4><div class="factor-problem"><strong>问题：</strong>搜索工具的用户无法发现你的产品。</div><div class="factor-solution"><strong>解决：</strong>在 AI 目录和 SaaS 发现平台上列出产品，创造推荐流量和相关外链。</div></article>
+              <article class="factor-card"><div class="factor-num">04</div><h4>外链</h4><div class="factor-problem"><strong>问题：</strong>Google 不信任你的网站，因为没有其他网站引用它。</div><div class="factor-solution"><strong>解决：</strong>通过外部信任投票建立域名权威。基础外链建立自然基础，高质量外链加速权威增长。</div></article>
+              <article class="factor-card"><div class="factor-num">05</div><h4>PR &amp; Reddit 曝光</h4><div class="factor-problem"><strong>问题：</strong>你的品牌在自己的网站之外完全不可见。</div><div class="factor-solution"><strong>解决：</strong>PR 在新闻网站上创造品牌搜索。Reddit 在真实社区讨论中建立话题相关性。</div></article>
+              <article class="factor-card"><div class="factor-num">06</div><h4>竞争 SEO 监控</h4><div class="factor-problem"><strong>问题：</strong>你不知道竞争对手在做什么来超越你。</div><div class="factor-solution"><strong>解决：</strong>追踪竞争对手关键词变化、新内容和外链获取，让你有策略地应对，而不是盲目猜测。</div></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 服务清单 -->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h2>全部服务清单</h2>
+            <p>以下是我们标准套餐、单点服务和定制方案中涵盖的所有执行渠道。</p>
+          </div>
+          <div class="service-grid">
+            <article class="service"><div class="service-num">01</div><h3>基础技术 SEO 检查报告</h3><p>检查网站索引、Meta 信息、网站结构、Schema 机会和基础站内 SEO 问题。</p></article>
+            <article class="service"><div class="service-num">02</div><h3>创建 SEO Blog 页面</h3><p>围绕产品使用场景、搜索意图、竞品对比和教育型关键词创建 SEO Blog 页面。</p></article>
+            <article class="service"><div class="service-num">03</div><h3>竞品对比页面</h3><p>创建竞品对比类页面内容，覆盖用户在评估替代产品时的高意图搜索需求。</p></article>
+            <article class="service"><div class="service-num">04</div><h3>基础外链建设</h3><p>通过相关目录、资料页、垂直列表、社区和其他网络资产建立自然外链基础。</p></article>
+            <article class="service"><div class="service-num">05</div><h3>高质量外链建设</h3><p>从更强或更相关的网站获取精选外链，用于增强品牌权威度和外部信号。</p></article>
+            <article class="service"><div class="service-num">06</div><h3>AI、SaaS、Startup 及全类型目录提交</h3><p>将产品提交到相关目录和发现平台，帮助用户、搜索引擎和 AI 发现系统识别品牌。</p></article>
+            <article class="service"><div class="service-num">07</div><h3>英文 PR 撰写与发布</h3><p>撰写并发布英文 PR 内容，增加品牌信号、搜索可见度和外部引用。</p></article>
+            <article class="service"><div class="service-num">08</div><h3>Reddit 话题与评论布局</h3><p>通过相关 Reddit 话题和评论布局，增加品牌在讨论场景中的可见度。</p></article>
+            <article class="service"><div class="service-num">09</div><h3>Google Search Console 分析</h3><p>在部分套餐中分析曝光、点击、CTR、关键词表现和内容机会。</p></article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 执行流程 -->
+      <section class="section dark" id="process">
+        <div class="container">
+          <div class="section-header center"><h2>我们如何交付</h2><p>从下单到最终报告，每个项目都围绕明确交付物、执行透明度和可审核进度推进。</p></div>
+          <div class="process">
+            <article class="step"><strong>01</strong><h3>下单购买</h3><p>选择服务，完成付款。</p></article>
+            <article class="step"><strong>02</strong><h3>提交网站信息</h3><p>提供域名、市场、关键词、竞品和产品描述。</p></article>
+            <article class="step"><strong>03</strong><h3>确认 SEO 方向</h3><p>我们审核网站并确认关键词方向后再启动。</p></article>
+            <article class="step"><strong>04</strong><h3>执行内容与发布</h3><p>创建内容、提交目录、建设外链、发布 PR、Reddit 布局。</p></article>
+            <article class="step"><strong>05</strong><h3>同步验证链接</h3><p>提供进度报告和已完成外部发布的验证链接。</p></article>
+            <article class="step"><strong>06</strong><h3>交付最终报告</h3><p>收到已完成交付物、链接清单和下一步建议的最终报告。</p></article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 客户案例 -->
+      <section class="section soft" id="cases">
+        <div class="container">
+          <div class="section-header center"><h2>客户案例</h2><p>真实项目的流量、关键词、外链和排名变化。</p></div>
+          <div class="case-grid">
+            <article class="case-card"><div class="case-icon">AI</div><h3>AI SaaS 产品</h3><p>案例即将补充。</p></article>
+            <article class="case-card"><div class="case-icon">DTC</div><h3>DTC 品牌</h3><p>案例即将补充。</p></article>
+            <article class="case-card"><div class="case-icon">EC</div><h3>电商网站</h3><p>案例即将补充。</p></article>
+            <article class="case-card"><div class="case-icon">SW</div><h3>出海软件工具</h3><p>案例即将补充。</p></article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 联系表单 -->
+      <section class="section" id="contact-form">
+        <div class="container">
+          <div class="contact-form-wrapper">
+            <div class="contact-form-intro">
+              <h2>告诉我们你的项目需求</h2>
+              <p>无论你需要<strong>标准套餐</strong>、<strong>排名保证服务</strong>、<strong>单项服务</strong>，还是<strong>完全定制的方案</strong>——在下方填写你的信息，我们会在 24 小时内回复你。</p>
+              <ul class="contact-benefits">
+                <li>免费初始 SEO 评估</li>
+                <li>无义务咨询</li>
+                <li>定制策略建议</li>
+              </ul>
+            </div>
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="cf-name">姓名 <span class="req">*</span></label>
+                  <input type="text" id="cf-name" name="name" required placeholder="你的姓名" />
+                </div>
+                <div class="form-field">
+                  <label for="cf-company">公司 <span class="req">*</span></label>
+                  <input type="text" id="cf-company" name="company" required placeholder="你的公司名称" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="cf-website">网站 <span class="req">*</span></label>
+                  <input type="url" id="cf-website" name="website" required placeholder="https://yourwebsite.com" />
+                </div>
+                <div class="form-field">
+                  <label for="cf-email">邮箱 <span class="req">*</span></label>
+                  <input type="email" id="cf-email" name="email" required placeholder="you@company.com" />
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="cf-message">你的目标与问题 <span class="req">*</span></label>
+                <textarea id="cf-message" name="message" rows="5" required placeholder="请描述你的 SEO 目标、目标关键词、当前面临的挑战、想要超越的竞争对手、时间预期，以及任何具体问题。你提供的信息越详细，我们越能精准地帮助你。"></textarea>
+              </div>
+              <button type="submit" class="button accent form-submit-btn">发送信息</button>
+              <p class="form-disclaimer">我们通常在 24 小时内回复。你的信息将严格保密，不会分享给任何第三方。</p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- 常见问题 -->
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section-header center"><h2>常见问题</h2><p>关于套餐范围、验证链接、排名、内容、外链和定制方案的说明。</p></div>
+          <div class="faq-list">
+            <details class="faq-item"><summary>标准套餐是否保证 Google 排名？</summary><p><strong>不保证。</strong>标准套餐围绕 SEO 三大支柱设计——<strong>关键词内容</strong>、<strong>外链和目录建立域名权威</strong>、<strong>技术审计</strong>——三者协同提升搜索排名。但标准套餐保证的是<strong>固定交付物</strong>，不是具体排名位置。如果你需要合同性的排名承诺，请使用我们的<a href="#rank-guarantee">排名保证服务</a>。</p></details>
+            <details class="faq-item"><summary>排名保证服务如何定价？</summary><p>排名保证服务按关键词单独定价，基于三个因素：(1) 关键词在 Google 中的竞争强度，(2) 目标排名位置（Top 3、Top 10 或 Top 20），(3) 你网站的当前 SEO 基础。在上方<a href="#rank-guarantee">计算器</a>中填写即可获取估算。</p></details>
+            <details class="faq-item"><summary>外链或 PR 会直接带来销售吗？</summary><p><strong>不会。</strong>外链、PR 和目录提交是 <strong>SEO 和权威信号</strong>——它们告诉 Google 你的网站可信且相关，帮助页面获得更高排名。更高排名带来<strong>自然流量</strong>，流量可能转化为线索或销售。但外链本身不会直接把买家送到你的网站。它们是<strong>基础建设工作</strong>，不是销售渠道。</p></details>
+            <details class="faq-item"><summary>标准套餐和排名保证服务有什么区别？</summary><p><strong>标准套餐</strong>在固定周期内交付固定 SEO 资产（内容、外链、目录、PR、Reddit），改善 SEO 基础并提高排名机会，但<strong>不承诺具体排名位置</strong>。<br><br><strong>排名保证服务</strong>按关键词销售——你指定搜索词和目标排名（Top 1-3、Top 4-10 或 Top 20），我们<strong>合同性承诺</strong>在约定周期内达到该位置。定价基于关键词竞争度和网站当前基础。</p></details>
+            <details class="faq-item"><summary>每个标准套餐具体包含什么？</summary><p>每个套餐都有固定交付清单，包括明确数量的 SEO Blog 页面、外链、目录提交、PR 发布、Reddit 布局、报告和目标关键词。购买前即可在价格区看到完整范围。</p></details>
+            <details class="faq-item"><summary>Authority Builder 和 Full SEO Growth 中的咨询会议是什么？</summary><p>这是线上策略会议，复盘项目进度、讨论竞争情报、调整关键词优先级并对齐下一步。Authority Builder 包含首次咨询 + 每 2 周 1 次复盘。Full SEO Growth 包含首次咨询 + 每周 1 次复盘。</p></details>
+            <details class="faq-item"><summary>竞争 SEO 监控是什么？</summary><p>我们追踪你指定的竞争对手的关键词变化、新内容、外链获取和排名波动。Authority Builder 监控 4 个竞争对手；Full SEO Growth 监控 8 个。这帮助我们发现机会并应对竞争威胁。</p></details>
+            <details class="faq-item"><summary>购买后我需要提供什么信息？</summary><p>域名、目标市场、产品或品牌介绍、目标关键词、竞品网站、优先推广页面和品牌素材。如果可提供 Google Search Console 或 CMS 权限，我们能给出更准确的建议。</p></details>
+            <details class="faq-item"><summary>你们可以直接把 Blog 发布到我的网站吗？</summary><p>可以，只要你提供 CMS 权限和发布授权。如果不提供 CMS，我们会交付可直接发布的内容，包括标题、Meta Description、URL Slug、正文和内链建议。</p></details>
+            <details class="faq-item"><summary>外链是真实可验证的吗？</summary><p>是的。只要外部网站公开展示链接，我们都会为已完成的外部发布提供真实 URL。我们的目标就是让外链、PR、Reddit 和目录提交都可以追踪和审核。</p></details>
+            <details class="faq-item"><summary>你们保证每条外链都会被 Google 收录吗？</summary><p>不保证。我们保证可验证的已发布 URL，但 Google 是否收录由 Google 和来源网站决定。有些链接可能很快被收录，有些可能需要更久，也有些可能不显示在搜索结果中。这属于 SEO 的正常情况。</p></details>
+            <details class="faq-item"><summary>基础外链和高质量外链有什么区别？</summary><p>基础外链通常来自目录、资料页、垂直列表、社区和相关网络资产，用于建立自然外链基础。高质量外链通常来自更强或更相关的网站，具有更高的权威度、上下文相关性或品牌价值。</p></details>
+            <details class="faq-item"><summary>Domain Rating (DR) 是什么意思？</summary><p>DR 是 Ahrefs 的指标，衡量网站外链档案强度，范围 0–100。更高 DR 的网站传递更多权威。我们的批量外链包含多个 DR 层级——从 DR20+ 基础链接到 DR71+ 高权威链接——以建立自然、多样的外链结构。</p></details>
+            <details class="faq-item"><summary>什么类型的网站适合这个服务？</summary><p>AI 产品、SaaS 公司、DTC 品牌、电商网站、软件工具、Startup 网站和希望提升 Google 可见度的出海品牌。</p></details>
+            <details class="faq-item"><summary>新网站使用这个服务安全吗？</summary><p>是的。标准套餐逐步建设 SEO 信号，避免激进批量操作。对于新网站，我们重点做技术检查、内容基础、目录提交和自然外链组合。</p></details>
+            <details class="faq-item"><summary>你们会使用 PBN、垃圾外链或自动批量提交吗？</summary><p>不会。我们不销售 PBN 群发、垃圾外链或低质量自动批量提交。服务重点是内容、人工或质量可控的发布、相关目录、PR、Reddit 和可验证外部信号。</p></details>
+            <details class="faq-item"><summary>同一个域名可以购买多个套餐吗？</summary><p>可以。如果你需要更多关键词、SEO 内容、外链或权威建设，可以为同一个域名购买多个套餐。</p></details>
+            <details class="faq-item"><summary>什么时候应该选择定制方案？</summary><p>如果你需要排名保证、Top 10 或 Top 3 排名目标、多域名、多语言 SEO、高竞争关键词、企业级报告、定制 PR 分发或长期月度 SEO 托管，建议选择定制方案。</p></details>
+          </div>
+        </div>
+      </section>
+
+      <!-- 底部行动号召 -->
+      <section class="final-cta">
+        <div class="container">
+          <h2>准备建立更清晰的 SEO 增长系统？</h2>
+          <p>选择标准套餐、获取排名报价，或联系我们定制方案。</p>
+          <div class="hero-actions" style="justify-content:center;margin-bottom:0;flex-wrap:wrap;">
+            <a class="button" href="#pricing">查看套餐</a>
+            <a class="button secondary" href="#rank-guarantee">排名报价</a>
+            <a class="button secondary" href="#bulk">单点服务</a>
+            <a class="button accent" href="#contact-form">联系我们</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <img src="./assets/logo.svg" alt="AscendSEO" />
+          <span>标准化 SEO 增长服务，交付透明、结果可验证。</span>
+        </div>
+        <div class="footer-contact">
+          <a href="mailto:hello@ascendseo.com" class="footer-contact-item">
+            <svg class="footer-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            hello@ascendseo.com
+          </a>
+          <span class="footer-contact-item">
+            <svg class="footer-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178A1.17 1.17 0 0 1 4.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178 1.17 1.17 0 0 1-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 0 1 .598.082l1.584.926a.272.272 0 0 0 .14.045c.133 0 .241-.108.241-.245 0-.06-.023-.12-.038-.177l-.327-1.233a.582.582 0 0 1-.023-.156.49.49 0 0 1 .201-.398C23.024 18.48 24 16.82 24 14.98c0-3.21-3.04-5.91-6.85-5.91l-.212-.212zm-2.039 2.367c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.97-.982zm4.844 0c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.969-.982z"/></svg>
+            微信：AscendBranding
+          </span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <span>&copy; 2026 AscendSEO. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+    (function() {
+      const kwInput = document.getElementById('kw-input');
+      const kwCheckBtn = document.getElementById('kw-check-btn');
+      const kwResult = document.getElementById('kw-result');
+      const quoteOutput = document.getElementById('quote-output');
+      const quoteDiff = document.getElementById('quote-diff');
+      const quoteRank = document.getElementById('quote-rank');
+      const quoteSite = document.getElementById('quote-site');
+      const quotePrice = document.getElementById('quote-price');
+      const quoteCta = document.getElementById('quote-cta');
+      let currentDifficulty = null, currentBasePrice = null;
+      function simulateKeywordDifficulty(keyword) {
+        const hash = keyword.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0);
+        const base = (hash % 85) + 5;
+        const lengthBonus = Math.min(keyword.split(' ').length * 3, 20);
+        return Math.min(Math.round(base + lengthBonus), 100);
+      }
+      function getDifficultyLabel(score) {
+        if (score <= 25) return { text: '低竞争', cls: 'diff-low' };
+        if (score <= 50) return { text: '中等竞争', cls: 'diff-mid' };
+        if (score <= 75) return { text: '高竞争', cls: 'diff-high' };
+        return { text: '极高竞争', cls: 'diff-vhigh' };
+      }
+      function getBasePrice(difficulty) { return difficulty <= 25 ? 299 : difficulty <= 50 ? 499 : difficulty <= 75 ? 899 : 1499; }
+      function getRankMultiplier(rank) { return rank === 'top3' ? 3.5 : rank === 'top10' ? 2.0 : 1.0; }
+      function getRankLabel(rank) { return rank === 'top3' ? 'Top 1–3' : rank === 'top10' ? 'Top 4–10' : rank === 'top20' ? 'Top 20' : '—'; }
+      function getSiteQualityLabel(url) {
+        if (!url) return { text: '尚未评估', factor: 1.0 };
+        const hasHttps = url.startsWith('https://');
+        const hasWww = url.includes('www.');
+        const isShort = url.replace(/https?:\/\//, '').split('/')[0].length < 15;
+        let score = 0; if (hasHttps) score += 1; if (hasWww) score += 1; if (isShort) score += 1;
+        if (score >= 3) return { text: '良好 — 结构规范的域名', factor: 0.85 };
+        if (score >= 1) return { text: '一般 — 有提升空间', factor: 1.0 };
+        return { text: '需改进 — 需要更多投入', factor: 1.25 };
+      }
+      function updateQuote() {
+        const selectedRank = document.querySelector('input[name="rank"]:checked');
+        const urlValue = document.getElementById('url-input').value.trim();
+        if (!currentDifficulty || !selectedRank) { quoteOutput.style.display = 'none'; return; }
+        const rankValue = selectedRank.value;
+        const rankMult = getRankMultiplier(rankValue);
+        const siteInfo = getSiteQualityLabel(urlValue);
+        const difficultyLabel = getDifficultyLabel(currentDifficulty);
+        const monthlyPrice = Math.round(currentBasePrice * rankMult * siteInfo.factor);
+        quoteDiff.textContent = difficultyLabel.text + ' (评分: ' + currentDifficulty + '/100)';
+        quoteDiff.className = 'quote-val ' + difficultyLabel.cls;
+        quoteRank.textContent = getRankLabel(rankValue) + ' (×' + rankMult + ')';
+        quoteSite.textContent = siteInfo.text + ' (×' + siteInfo.factor + ')';
+        quotePrice.textContent = '$' + monthlyPrice.toLocaleString() + ' USD/月';
+        quoteOutput.style.display = 'block';
+        quoteCta.href = 'mailto:hello@ascendseo.com?subject=Rank%20Guarantee%20Quote&body=Keyword:%20' + encodeURIComponent(kwInput.value) + '%0D%0ARank%20Target:%20' + encodeURIComponent(getRankLabel(rankValue)) + '%0D%0AWebsite:%20' + encodeURIComponent(urlValue) + '%0D%0AEstimated%20Monthly:%20$' + monthlyPrice.toLocaleString();
+      }
+      kwCheckBtn.addEventListener('click', function() {
+        const keyword = kwInput.value.trim();
+        if (!keyword) { kwResult.innerHTML = '<span class="kw-error">请输入搜索词或关键词。</span>'; return; }
+        kwCheckBtn.textContent = '检测中...'; kwCheckBtn.disabled = true; kwResult.innerHTML = '';
+        setTimeout(function() {
+          currentDifficulty = simulateKeywordDifficulty(keyword);
+          currentBasePrice = getBasePrice(currentDifficulty);
+          const label = getDifficultyLabel(currentDifficulty);
+          kwResult.innerHTML = '<div class="kw-result-card ' + label.cls + '"><span class="kw-diff-badge">' + label.text + '</span><span class="kw-diff-score">难度评分: <strong>' + currentDifficulty + '/100</strong></span><span class="kw-diff-base">基础价格: $' + currentBasePrice + ' USD</span></div>';
+          kwCheckBtn.textContent = '检测难度'; kwCheckBtn.disabled = false;
+          updateQuote();
+        }, 800);
+      });
+      document.querySelectorAll('input[name="rank"]').forEach(function(radio) { radio.addEventListener('change', updateQuote); });
+      document.getElementById('url-input').addEventListener('input', updateQuote);
+
+      // 联系表单
+      document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var name = document.getElementById('cf-name').value;
+        var company = document.getElementById('cf-company').value;
+        var website = document.getElementById('cf-website').value;
+        var email = document.getElementById('cf-email').value;
+        var message = document.getElementById('cf-message').value;
+        var subject = encodeURIComponent('SEO 咨询 - ' + name + ' (' + company + ')');
+        var body = encodeURIComponent(
+          '姓名: ' + name + '\n' +
+          '公司: ' + company + '\n' +
+          '网站: ' + website + '\n' +
+          '邮箱: ' + email + '\n\n' +
+          '留言:\n' + message
+        );
+        window.location.href = 'mailto:hello@ascendseo.com?subject=' + subject + '&body=' + body;
+      });
+    })();
+    </script>
+  </body>
+</html>
